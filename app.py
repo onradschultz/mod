@@ -38,4 +38,4 @@ if st.button('Moderate'):
     serialized_output = serialize(output)
     json_output = json.dumps(serialized_output, indent=2, ensure_ascii=False)
     st.json(json_output)
-st.markdown("_Markdown_") # see *
+st.latex(r""" e^{i\pi} + 1 = 0 """)
